@@ -60,7 +60,6 @@ span3.onclick = function() {
   modal3.style.display = "none";
 }
 
-
 /*============================================================*/
 var modal4 = document.getElementById("myModal4");
 
@@ -122,4 +121,3 @@ var span6 = document.getElementsByClassName("close6")[0];
 span6.onclick = function() {
   modal6.style.display = "none";
 }
-

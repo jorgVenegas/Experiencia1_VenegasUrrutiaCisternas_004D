@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="span">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/bootstrap.min.css" type="text/css" rel="stylesheet"> 
+    <link rel="StyleSheet" href="css/galeria.css" type="text/css">
+    <link rel="StyleSheet" href="css/estilos.css" type="text/css">
+    <title>Galeria De Fotos</title>
+</head>
+<body background="img/Fondonegro.jpg">
+  <nav class="navbar navbar-expand-sm navbar-dark">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#opciones">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    
+    <!-- logo -->
+    <a class="navbar-brand" href="#">
+      <img src="img/logo.png" width="100" height="80" alt="">
+    </a>
+    
+    <!-- enlaces -->
+    <div class="collapse navbar-collapse" id="opciones" >   
+      <ul class="navbar-nav" style="color: black;">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Inicio<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="QuienesSomos.html">Quienes Somos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="GaleriaFotos.html">Galeria de Fotos</a>
+        </li>          
+      </ul>
+    </div>
+  </nav>
+  <div class="container">
+      <div class="row">
+        <div class="col-4" >
+                      <!-- Trigger the Modal -->
+          <img id="myImg" src="img/Calabaza.jpg" alt="calabaza" style="width:100%;max-width:300px">
+
+               <!-- The Modal -->
+          <div id="myModal" class="modal">
+
+            <!-- The Close Button -->
+            <span class="close">&times;</span>
+
+            <!-- Modal Content (The Image) -->
+            <img class="modal-content" id="img01">
+
+            <!-- Modal Caption (Image Text) -->
+            <div id="caption"></div>
+          </div>
+        </div>
+        <div class="col-4" >
+                        <!-- Trigger the Modal -->
+          <img id="myImg2" src="img/Caldero.jpg" alt="caldero" style="width:100%;max-width:300px;">
+
+            <!-- The Modal -->
+          <div id="myModal2" class="modal2">
+
+            <!-- The Close Button -->
+            <span2 class="close2">&times;</span2>
+
+              <!-- Modal Content (The Image) -->
+            <img class="modal2-content" id="img02">
+
+                <!-- Modal Caption (Image Text) -->
+            <div id="caption2"></div>
+          </div>
+        </div>
+        <div class="col-4" >
+                        <!-- Trigger the Modal -->
+          <img id="myImg3" src="img/Dentadura.jpg" alt="dentadura" style="width:100%;max-width:300px">
+
+          <!-- The Modal -->
+          <div id="myModal3" class="modal3">
+
+              <!-- The Close Button -->
+            <span3 class="close3">&times;</span3>
+
+              <!-- Modal Content (The Image) -->
+            <img class="modal3-content" id="img03">
+
+              <!-- Modal Caption (Image Text) -->
+            <div id="caption3"></div>
+          </div>
+        </div>
+      </div>
+
+      
+      <div class="row">
+        <div class="col-12">      <br></div>
+      </div>
+
+
+      <div class="row">
+        <div class="col-4">
+                <!-- Trigger the Modal -->
+            <img id="myImg4" src="img/floryojo.jpg" alt="flor yojo" style="width:100%;max-width:300px">
+
+              <!-- The Modal -->
+             <div id="myModal4" class="modal4">
+
+                <!-- The Close Button -->
+              <span4 class="close4">&times;</span4>
+
+                <!-- Modal Content (The Image) -->
+              <img class="modal4-content" id="img04">
+
+                <!-- Modal Caption (Image Text) -->
+              <div id="caption4"></div>
+            </div>
+        </div>
+        <div class="col-4">
+                <!-- Trigger the Modal -->
+          <img id="myImg5" src="img/fantasma.jpg" alt="fantasma" style="width:100%;max-width:300px">
+
+              <!-- The Modal -->
+          <div id="myModal5" class="modal5">
+
+                <!-- The Close Button -->
+              <span5 class="close5">&times;</span5>
+
+                <!-- Modal Content (The Image) -->
+              <img class="modal5-content" id="img05">
+
+                <!-- Modal Caption (Image Text) -->
+              <div id="caption5"></div>
+          </div>
+        </div>
+        <div class="col-4">
+                <!-- Trigger the Modal -->
+            <img id="myImg6" src="img/rana.jpg" alt="rana" style="width:100%;max-width:300px">
+
+              <!-- The Modal -->
+            <div id="myModal6" class="modal6">
+
+                <!-- The Close Button -->
+               <span6 class="close6">&times;</span6>
+
+                <!-- Modal Content (The Image) -->
+                <img class="modal6-content" id="img06">
+
+                <!-- Modal Caption (Image Text) -->
+                <div id="caption6"></div>
+            </div>
+        </div>
+      </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>   
+    <script src="js/programacion.js"></script>
+</body>
+<footer class="py-5">
+    <div class="container" id="fondo">
+      <p class="m-0" id="contactos" style="font-size: 13px;">David Cisternas - Jorge Venegas - Isidora Urrutia@Copyright &copy; Your Website 2021 </p>
+     <br>
+      <a href="https://instagram.com/krusty_ink?igshid=154kdd1lbewxx" target="_blank"><img class="imgg" src="img/insta.png" id="insta"></a>
+    </div>
+</footer>
+</html>
