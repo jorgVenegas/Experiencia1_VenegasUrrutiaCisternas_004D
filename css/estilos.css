@@ -39,9 +39,12 @@ h1{
     font-size: 5vw;
     font-family: tatoo;
 }
-
 h2{
-    font-family: tatoo;
+    padding-top: 10%;
+    font-family:tatoo;
+    text-align: center;
+    color: white ;
+    font-size: 4vw;
 }
 #margen{
     margin-top: 10%;
@@ -51,3 +54,13 @@ h2{
     font-family:tatoo ;
     src: url(TATTI___.TTF);
 }
+ #quien{
+
+     font-family: cursive;
+     font-size: large;
+     border:dashed 5px white;
+     color: white;
+     text-align: justify;
+     padding:2% ;
+ }
+ 
